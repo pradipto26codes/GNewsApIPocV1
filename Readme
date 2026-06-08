@@ -1,2 +1,11 @@
 This is a test POC repository to learn how to use Gnews APIs
-Check 3
+
+Run tests using pytest from the project root:
+
+    pytest
+
+or:
+
+    python -m pytest tests/test_gnews_integration.py
+
+Do not run the test file directly with `python tests/test_gnews_integration.py`, because that bypasses pytest's `pythonpath = src` configuration.
