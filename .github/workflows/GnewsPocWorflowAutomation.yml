@@ -33,4 +33,4 @@ jobs:
         env:
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
         run: |
-          pytest tests/test_gnews_integration.py -v
+          pytest src/main.py
