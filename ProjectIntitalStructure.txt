@@ -1,0 +1,10 @@
+GNewsApIPocV1/
+├── src/
+│   ├── __init__.py
+│   ├── gnews_client.py
+│   └── main.py
+├── tests/
+│   ├── __init__.py
+│   └── test_gnews_integration.py
+├── pytest.ini
+└── requirements.txt
